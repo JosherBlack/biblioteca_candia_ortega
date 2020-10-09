@@ -55,6 +55,14 @@ public class github_act extends AppCompatActivity
         {
             et1.setText("El valor es : " + precios.getAlquimista());
         }
+        if(libro.equals("El Poder"))
+        {
+            et1.setText("El valor es : " + precios.getPoder());
+        }
+        if(libro.equals("Despertar"))
+        {
+            et1.setText("El valor es : " + precios.getDespertar());
+        }
 
 
     }
